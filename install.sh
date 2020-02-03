@@ -2,18 +2,18 @@ apt-get install python-pip3 python-tk
 pip3 install pyserial pyusb numpy
 mkdir FortiusAnt
 cd FortiusAnt
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/FortiusAnt.ico
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/FortiusAnt.jpg
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/FortiusAnt.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/FotiusAntCommand.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/FortiusAntGui.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/antDongle.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/debug.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/logfile.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/structConstants.py
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/usbTrainer.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/FortiusAnt.ico
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/FortiusAnt.jpg
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/FortiusAnt.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/FotiusAntCommand.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/FortiusAntGui.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/antDongle.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/debug.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/logfile.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/structConstants.py
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/usbTrainer.py
 mkdir supportfiles
-wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/pythoncode/supportfiles/FortiusANT - Powercurve.xlsm
+wget --quiet -N https://github.com/Alanimus/FortiusANT/tree/master/supportfiles/FortiusANT - Powercurve.xlsm
 echo "##########################################################################"
 echo "This script has installed python-pip and pyserial. It has created the"
 echo "directory antifier and downloaded the required files."
