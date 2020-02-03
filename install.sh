@@ -1,4 +1,4 @@
-apt-get install python-pip3 python-tk
+apt-get install python3-pip python3-tk
 pip3 install pyserial pyusb numpy
 mkdir FortiusAnt
 cd FortiusAnt
