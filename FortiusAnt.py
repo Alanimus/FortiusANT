@@ -98,8 +98,6 @@ import sys
 import struct
 import threading
 import time
-import usb.core
-import wx
 
 from datetime import datetime
 
@@ -939,17 +937,6 @@ if debug.on(debug.Any):
 #-------------------------------------------------------------------------------
 devTrainer = False
 devAntDongle = False
-if clv.gui:
-    app = wx.App(0)
-    frame = frmFortiusAnt(None)
-    frame.SetTitle( WindowTitle )
-    app.SetTopWindow(frame)
-    SetFactorMsg(frame, clv.PowerFactor)
-    frame.Show()
-    if clv.autostart:
-        frame.Autostart()
-    app.MainLoop()
-else:
-    x = frmFortiusAntNoGui()
-    if LocateHW(x):
-        Tacx2Dongle(x)
+x = frmFortiusAntNoGui()
+if LocateHW(x):
+    Tacx2Dongle(x)
